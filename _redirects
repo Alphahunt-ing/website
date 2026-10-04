@@ -1,0 +1,9 @@
+# Redirects, applied by Cloudflare to the static assets.
+# Short, stable links for chat and READMEs. Temporary (302) on purpose:
+# the targets may move.
+
+/github     https://github.com/Alphahunt-ing   302
+/system     /#system                           302
+/rewards    /#rewards                          302
+/safety     /#safety                           302
+/roadmap    /#rules                            302

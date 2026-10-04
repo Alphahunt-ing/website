@@ -1,0 +1,15 @@
+{
+  "name": "AlphaHunt",
+  "short_name": "AlphaHunt",
+  "description": "A private, invite-only crypto intel circle. Spot it early. Act on it every day. Not financial advice.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0C0C0D",
+  "theme_color": "#0C0C0D",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

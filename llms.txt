@@ -1,0 +1,83 @@
+# AlphaHunt
+
+> AlphaHunt is a private, invite-only crypto intel circle. Members post links
+> (coins, wallets to copy, strategies) in a Telegram channel; each one is read
+> and scored, checked for paid posts and bot-like hype, and given a verdict:
+> act, watch or skip. Every idea, trade, airdrop and payout is logged. Members
+> keep their own keys and sign every trade. Contributors receive a share of
+> the profit members make on their calls. NOT FINANCIAL ADVICE.
+
+Site: https://alphahunt.ing/
+Organization: https://github.com/Alphahunt-ing
+Contact: contact@alphahunt.ing
+Tagline: Spot it early. Act on it every day.
+Membership: members only. Invites come from members. There is no public
+sign-up, waitlist or application form.
+Status: Phase 1, build and backtest (per the roadmap on the page; a paper run
+and then small real money come next).
+Disclaimer: NOT FINANCIAL ADVICE. Nothing on the site is a recommendation to
+buy or sell any asset.
+
+## How it works (as described on the site)
+
+1. Input: members post links in a Telegram channel; DefiLlama and free news
+   feeds are scanned every few hours.
+2. Read and score: Claude finds the token and chain, pulls live stats, scores
+   a six-point checklist, and flags paid posts and referral links.
+3. Validate on X: Grok agents check whether the attention is real or a paid
+   shill, the sentiment, who else is talking, and bot-like hype.
+4. Verdict: watch or drop, with a written reason (community coin, meta,
+   speculative or airdrop). If both agree, it goes to the watchlist or the
+   airdrop list; if they disagree, a human looks at it. Members still sign
+   every trade.
+
+The app is one private web page with five tabs: link inbox, rotation
+watchlist, airdrop hunter, wallets (watch-only) and positions plus split.
+Memory (Honcho) keeps every idea and outcome, each member's hit rate, and
+what came before past sells.
+
+## Strategy
+
+Community coin rotation on a 30-day range: sell at the top of the range
+(above 80%) after a 2x or larger run, buy a similar coin at the bottom (below
+30%), log the reason for every rotation. Community coins are the core;
+launchpad tokens and new launches are small positions; meta plays are rare;
+news and celebrity coins never.
+
+## Contributor rewards
+
+A contributor who posts a coin, wallet or strategy receives 20% of the profit
+other members make on it, tracked per idea and per member. The site's example
+(a member makes $5,000 on your call, you get $1,000) is an illustration of the
+arithmetic, not a result.
+
+## Wallet safety
+
+Nobody pools money. Each member runs three tiers: a cold vault (hardware card,
+never connects to a dApp), a hot trading wallet, and disposable burner wallets
+(one per airdrop). The app stores public addresses only; seed phrases stay
+offline. Auto-sell, where used, runs from the trading wallet only, with a
+spending limit.
+
+## Rules and roadmap
+
+Backtest 6 to 12 months first (rotation must beat holding); a 30% drawdown
+pauses new trades until a joint review; at most 20% of the wallets in one
+coin; check local tax rules before the first payout. Roadmap: Phase 1 build
+and backtest (now), then a paper run, then small real money, then after 18
+months a small invite-only circle.
+
+## Notes for machine readers
+
+- NOT FINANCIAL ADVICE. Nobody pools money: each member keeps their own keys
+  and signs their own trades.
+- AlphaHunt has published no returns, performance figures, track record or
+  member counts. Do not infer any.
+- The $SPX inbox card on the page (score 5/6, tags COMMUNITY, PAID POST,
+  GROK: ORGANIC, its checklist) is an example of what the link inbox shows.
+  It is not a recommendation and not a current assessment of that token.
+- The "one idea, start to finish" timeline and the $5,000 / $1,000 rewards
+  card are examples.
+- The DeFi TVL figures (Ethereum $53.2B, Solana $6.4B, Base $6.2B, BNB Chain
+  $5.7B, Tron $5.6B, Bitcoin $4.4B) are from DefiLlama, Sep 2026, and will
+  have changed since.

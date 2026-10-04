@@ -1,0 +1,5 @@
+# AlphaHunt security contact
+Contact: mailto:contact@alphahunt.ing
+Expires: 2027-10-04T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://alphahunt.ing/.well-known/security.txt
