@@ -16,7 +16,7 @@ custom domain, without that review.
 
 | Claim | Where | Source | Flag |
 | :--- | :--- | :--- | :--- |
-| Contributors receive **20%** of the profit members make on their calls ("YOUR SHARE · 20% OF PROFIT ON YOUR CALLS", "20% to you", example $5,000 → $1,000) | Hero spec; Rewards tile 04; Rewards example card; `llms.txt` | **20%, per the user on 2026-10-04 (the design said 30%).** The design's example ($5,000 → $1,500) was recomputed to $5,000 → $1,000 | **Legal** |
+| Members pay a **20% platform fee** on their profit; half of it (**10%** of the profit) goes to whoever posted the call, the other half stays with the platform; a contributor's own trades on their own calls don't count ("PLATFORM FEE · 20% OF YOUR PROFIT", "YOU EARN · 10% ON YOUR CALLS, FROM THE FEE", "10% to you", example $5,000 → $1,000 fee → $500 to you) | Hero spec; Rewards tile 04; Rewards example card; `llms.txt` | **20%, per the user on 2026-10-04 (the design said 30%).** The design's example ($5,000 → $1,500) was recomputed to $5,000 → $1,000 | **Legal** |
 | "Profit shares are worked out on-chain, so there's no argument about them." | Vision, principle 04 | Brief | **Legal** |
 | "Real money on every signal, results public." | Rules, "Skin in the game" | Brief. No results are published yet; the roadmap puts real money after a paper run | **Legal** |
 | "Alert or auto-sell, from the trading wallet only, with a spending limit." (the auto-sell description) | Strategy, sell-signals panel; `llms.txt` | Brief | **Legal** |
@@ -70,13 +70,13 @@ custom domain, without that review.
 | :--- | :--- |
 | The $EXMPL inbox card: 5/6, COMMUNITY, PAID POST, GROK: ORGANIC, and its checklist | `EXAMPLE · LINK INBOX · FROM TELEGRAM · SOLANA`; `llms.txt` says it is not a recommendation or a current assessment. $EXMPL is a real token: the tags and checklist are statements about it, so review them with the flagged lines or swap in a fictional ticker |
 | The 09:12 → "days later" timeline | `[ EXAMPLE · ONE IDEA, START TO FINISH ]` (the design's own label) |
-| $5,000 → $1,000 | `[ EXAMPLE ]` (the design's own label; the payout recomputed at 20%) |
+| $5,000 → $1,000 → $500 | `[ EXAMPLE ]` (the design's own label; recomputed for the 20% fee and 10% maker share) |
 
 ## Changed from the design
 
 | What | Change | Why |
 | :--- | :--- | :--- |
-| Profit share 30% (hero, rewards tile) and the example payout $1,500 | 20% and $1,000 | Per the user on 2026-10-04 |
+| Profit share 30% (hero, rewards tile) and the example payout $1,500 | Members pay 20% of their profit; 10% goes to the call's maker, own trades excluded; example $5,000 → $1,000 → $500 | Per the user on 2026-10-04 (20%) and 2026-10-05 (the 20% fee and the 10% maker share). The 10% is paid out of the 20% fee, per the user on 2026-10-05 |
 | $EXMPL card label "LINK INBOX · FROM TELEGRAM · SOLANA" | Prefixed `EXAMPLE ·` | It is an example of the inbox; examples say so. The design used $SPX, a real token: replaced with the made-up ticker $EXMPL (per the user, 2026-10-05) so the tags and score are not claims about a real coin |
 | TVL panel | Added a caption "SOURCE: DEFILLAMA, SEP 2026" under the bars; the design's header "DEFI TVL · SEP 2026" is unchanged | Data carries its source and date |
 | Footer bottom row | Added `contact@alphahunt.ing` and `llms.txt` links | House pattern: a contact and the machine-readable summary. No sign-up, no waitlist |

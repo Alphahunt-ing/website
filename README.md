@@ -41,7 +41,7 @@ is where a site like this gets into trouble, so:
 
 - **NOT FINANCIAL ADVICE** stays visible: in the footer, in `llms.txt` and on
   the Open Graph card.
-- **Examples say they are examples.** The $5,000 → $1,000 rewards card carries
+- **Examples say they are examples.** The $5,000 → $1,000 → $500 rewards card carries
   `[ EXAMPLE ]`, the timeline is `[ EXAMPLE · ONE IDEA, START TO FINISH ]`, and
   the $EXMPL inbox card is labelled `EXAMPLE · LINK INBOX`.
 - **The TVL figures carry their source and date:** DefiLlama, Sep 2026.
@@ -51,8 +51,8 @@ is where a site like this gets into trouble, so:
 - **No sign-up form.** The circle is invite-only ("invites come from
   members"). There is no waitlist and no form; the only contact is
   `contact@alphahunt.ing`.
-- Five lines are **flagged for legal review before launch** (the 20% profit
-  share, on-chain profit shares, "real money on every signal, results public",
+- Five lines are **flagged for legal review before launch** (the 20% platform fee and
+  the 10% maker share, on-chain profit shares, "real money on every signal, results public",
   the auto-sell description and the "life-changing money" line). See
   [`COPY.md`](COPY.md).
 
@@ -60,12 +60,12 @@ is where a site like this gets into trouble, so:
 
 | Anchor | Section | Job |
 | :--- | :--- | :--- |
-| `#top` | Hero | "Spot it early. Act on it every day.", the pitch, and the spec: verdict, coverage, your share (20%) |
+| `#top` | Hero | "Spot it early. Act on it every day.", the pitch, and the spec: verdict, coverage, a 20% platform fee on profit, half of it (10%) to the call’s maker |
 | `#vision` | Vision | "A private edge": two-person partnership to a small invite-only circle, and the five principles |
 | `#system` | The System | Input, Claude, Grok agents, verdict; the three outcomes; the $EXMPL inbox card and its six-point checklist (an example) |
 | `#app` | The App | The five tabs, Honcho memory, and one idea start to finish (an example) |
 | `#strategy` | The Strategy | Community coin rotation, the 30-day range bar, the rotation rules, the sell-signals panel |
-| `#rewards` | Contributor Rewards | Post, members use it, they profit, 20% to you; the $5,000 → $1,000 example card |
+| `#rewards` | Contributor Rewards | Post, members use it, they profit, 10% to you (paid out of the 20% platform fee; own trades excluded); the $5,000 → $1,000 → $500 example card |
 | `#safety` | Wallet Safety | No pooled money, three safety rules, and the vault / trading / burner tiers |
 | `#chains` | Chains + Data | DeFi TVL by chain (DefiLlama, Sep 2026) and the auto-scanned sources |
 | `#rules` | Rules + Roadmap | Six rules and the four phases, Phase 1 now |
@@ -196,7 +196,7 @@ still be listed from links elsewhere.
 2. **Not financial advice, always visible.** Keep it in the footer, in
    `llms.txt` and on the Open Graph card.
 3. **Examples say so.** Every illustrative figure or token (the $EXMPL card, the
-   timeline, the $5,000 → $1,000 card) carries an example label. Keep them.
+   timeline, the $5,000 → $1,000 → $500 card) carries an example label. Keep them.
 4. **Data carries its source and date.** The TVL bars say "DefiLlama, Sep
    2026". Update the figures and the date together, or not at all.
 5. **Flagged lines change only after legal review.** See `COPY.md`.

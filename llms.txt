@@ -47,10 +47,12 @@ news and celebrity coins never.
 
 ## Contributor rewards
 
-A contributor who posts a coin, wallet or strategy receives 20% of the profit
-other members make on it, tracked per idea and per member. The site's example
-(a member makes $5,000 on your call, you get $1,000) is an illustration of the
-arithmetic, not a result.
+Members pay a 20% platform fee on the profit they make. Half of the fee (10%
+of the profit) goes to the contributor who posted the call (a coin, a wallet
+to copy or a strategy); the other half stays with the platform. It is
+tracked per idea and per member. A contributor's own trades on their own calls
+don't count. The site's example (a member makes $5,000 on your call, pays a
+$1,000 platform fee, and $500 of it goes to you) is an illustration of the arithmetic, not a result.
 
 ## Wallet safety
 
@@ -77,7 +79,7 @@ months a small invite-only circle.
 - The $EXMPL inbox card on the page (score 5/6, tags COMMUNITY, PAID POST,
   GROK: ORGANIC, its checklist) is an example of what the link inbox shows.
   $EXMPL is a made-up ticker, not a real token, and the card is not a recommendation.
-- The "one idea, start to finish" timeline and the $5,000 / $1,000 rewards
+- The "one idea, start to finish" timeline and the $5,000 / $1,000 / $500 rewards
   card are examples.
 - The DeFi TVL figures (Ethereum $53.2B, Solana $6.4B, Base $6.2B, BNB Chain
   $5.7B, Tron $5.6B, Bitcoin $4.4B) are from DefiLlama, Sep 2026, and will
