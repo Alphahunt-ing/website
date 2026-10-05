@@ -21,7 +21,7 @@
 # What goes live is always a commit that is on main, and the deployment records
 # which one.
 #
-# Cloudflare credentials: the Factory0 account, via CLOUDFLARE_API_TOKEN or
+# Cloudflare credentials: the account that owns alphahunt.ing, via CLOUDFLARE_API_TOKEN or
 # `wrangler login` (see README, Deploy).
 set -euo pipefail
 

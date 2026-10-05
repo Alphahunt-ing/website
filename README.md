@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <b>alphahunt.ing</b> · a <a href="https://factory0.ventures">Factory Zero</a> venture · <a href="https://github.com/Alphahunt-ing">github.com/Alphahunt-ing</a>
+  <b>alphahunt.ing</b> · <a href="https://github.com/Alphahunt-ing">github.com/Alphahunt-ing</a>
 </p>
 
 ---
@@ -139,7 +139,7 @@ by hand at `github.com/organizations/Alphahunt-ing/settings/profile`.
 ## Deploy
 
 A Cloudflare Worker with static assets, `alphahunt-website` (`wrangler.toml`),
-on the Factory0 account. It has no script: Cloudflare serves `dist/` and
+on the Cloudflare account that owns alphahunt.ing. It has no script: Cloudflare serves `dist/` and
 applies `_headers` and `_redirects`. It is live on `alphahunt.ing` and
 `www.alphahunt.ing` (custom domains the deploy attaches itself) and on its
 `workers.dev` address. Commit to `main`, then:
@@ -166,7 +166,7 @@ git worktree add ../alphahunt-website-worktrees/<name> -b <branch> main
 ### Custom domains
 
 `alphahunt.ing` and `www.alphahunt.ing` are routes in `wrangler.toml` with
-`custom_domain = true`, on the `alphahunt.ing` zone of the Factory0 account.
+`custom_domain = true`, on the `alphahunt.ing` zone on Cloudflare.
 `tools/deploy.sh` attaches them: Cloudflare creates the DNS records and the
 certificates itself, so do not add them by hand.
 

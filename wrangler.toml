@@ -10,7 +10,7 @@ directory = "./dist"
 not_found_handling = "404-page"
 html_handling = "auto-trailing-slash"
 
-# Custom domains: alphahunt.ing is a zone on the Factory0 account; the deploy
+# Custom domains: alphahunt.ing is a zone on the Cloudflare account that owns alphahunt.ing; the deploy
 # attaches both hostnames itself (Cloudflare makes the DNS records and certs).
 
 [[routes]]
