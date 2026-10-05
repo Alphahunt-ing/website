@@ -68,7 +68,7 @@ custom domain, without that review.
 
 | What | Where it says so |
 | :--- | :--- |
-| The $SPX inbox card: 5/6, COMMUNITY, PAID POST, GROK: ORGANIC, and its checklist | `EXAMPLE · LINK INBOX · FROM TELEGRAM · SOLANA`; `llms.txt` says it is not a recommendation or a current assessment. $SPX is a real token: the tags and checklist are statements about it, so review them with the flagged lines or swap in a fictional ticker |
+| The $EXMPL inbox card: 5/6, COMMUNITY, PAID POST, GROK: ORGANIC, and its checklist | `EXAMPLE · LINK INBOX · FROM TELEGRAM · SOLANA`; `llms.txt` says it is not a recommendation or a current assessment. $EXMPL is a real token: the tags and checklist are statements about it, so review them with the flagged lines or swap in a fictional ticker |
 | The 09:12 → "days later" timeline | `[ EXAMPLE · ONE IDEA, START TO FINISH ]` (the design's own label) |
 | $5,000 → $1,000 | `[ EXAMPLE ]` (the design's own label; the payout recomputed at 20%) |
 
@@ -77,7 +77,7 @@ custom domain, without that review.
 | What | Change | Why |
 | :--- | :--- | :--- |
 | Profit share 30% (hero, rewards tile) and the example payout $1,500 | 20% and $1,000 | Per the user on 2026-10-04 |
-| $SPX card label "LINK INBOX · FROM TELEGRAM · SOLANA" | Prefixed `EXAMPLE ·` | It is an example of the inbox, about a real token; examples say so |
+| $EXMPL card label "LINK INBOX · FROM TELEGRAM · SOLANA" | Prefixed `EXAMPLE ·` | It is an example of the inbox; examples say so. The design used $SPX, a real token: replaced with the made-up ticker $EXMPL (per the user, 2026-10-05) so the tags and score are not claims about a real coin |
 | TVL panel | Added a caption "SOURCE: DEFILLAMA, SEP 2026" under the bars; the design's header "DEFI TVL · SEP 2026" is unchanged | Data carries its source and date |
 | Footer bottom row | Added `contact@alphahunt.ing` and `llms.txt` links | House pattern: a contact and the machine-readable summary. No sign-up, no waitlist |
 | Nav on screens under 1080px | Seven items fold into a MENU (`<details>`) | The design's wrapping nav takes several lines on a phone |

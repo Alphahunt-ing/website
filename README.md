@@ -43,7 +43,7 @@ is where a site like this gets into trouble, so:
   the Open Graph card.
 - **Examples say they are examples.** The $5,000 → $1,000 rewards card carries
   `[ EXAMPLE ]`, the timeline is `[ EXAMPLE · ONE IDEA, START TO FINISH ]`, and
-  the $SPX inbox card is labelled `EXAMPLE · LINK INBOX`.
+  the $EXMPL inbox card is labelled `EXAMPLE · LINK INBOX`.
 - **The TVL figures carry their source and date:** DefiLlama, Sep 2026.
 - **Invent nothing.** No returns, member counts, win rates, testimonials or
   performance. The circle is in Phase 1 (build and backtest) and has published
@@ -62,7 +62,7 @@ is where a site like this gets into trouble, so:
 | :--- | :--- | :--- |
 | `#top` | Hero | "Spot it early. Act on it every day.", the pitch, and the spec: verdict, coverage, your share (20%) |
 | `#vision` | Vision | "A private edge": two-person partnership to a small invite-only circle, and the five principles |
-| `#system` | The System | Input, Claude, Grok agents, verdict; the three outcomes; the $SPX inbox card and its six-point checklist (an example) |
+| `#system` | The System | Input, Claude, Grok agents, verdict; the three outcomes; the $EXMPL inbox card and its six-point checklist (an example) |
 | `#app` | The App | The five tabs, Honcho memory, and one idea start to finish (an example) |
 | `#strategy` | The Strategy | Community coin rotation, the 30-day range bar, the rotation rules, the sell-signals panel |
 | `#rewards` | Contributor Rewards | Post, members use it, they profit, 20% to you; the $5,000 → $1,000 example card |
@@ -195,7 +195,7 @@ still be listed from links elsewhere.
    do not summarise them into a headline number.
 2. **Not financial advice, always visible.** Keep it in the footer, in
    `llms.txt` and on the Open Graph card.
-3. **Examples say so.** Every illustrative figure or token (the $SPX card, the
+3. **Examples say so.** Every illustrative figure or token (the $EXMPL card, the
    timeline, the $5,000 → $1,000 card) carries an example label. Keep them.
 4. **Data carries its source and date.** The TVL bars say "DefiLlama, Sep
    2026". Update the figures and the date together, or not at all.

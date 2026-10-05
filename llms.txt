@@ -74,9 +74,9 @@ months a small invite-only circle.
   and signs their own trades.
 - AlphaHunt has published no returns, performance figures, track record or
   member counts. Do not infer any.
-- The $SPX inbox card on the page (score 5/6, tags COMMUNITY, PAID POST,
+- The $EXMPL inbox card on the page (score 5/6, tags COMMUNITY, PAID POST,
   GROK: ORGANIC, its checklist) is an example of what the link inbox shows.
-  It is not a recommendation and not a current assessment of that token.
+  $EXMPL is a made-up ticker, not a real token, and the card is not a recommendation.
 - The "one idea, start to finish" timeline and the $5,000 / $1,000 rewards
   card are examples.
 - The DeFi TVL figures (Ethereum $53.2B, Solana $6.4B, Base $6.2B, BNB Chain
