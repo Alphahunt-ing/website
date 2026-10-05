@@ -58,8 +58,9 @@ section[id] { scroll-margin-top: var(--nav-h); }
 
 /* ------------------------------------------------------------------ nav */
 .nav { position: sticky; top: 0; z-index: 20; min-height: var(--nav-h); display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px var(--gutter); background: var(--ink); border-bottom: 1px solid var(--line); font: 500 13px var(--mono); letter-spacing: .08em; }
-.brand { font: 400 20px var(--display); letter-spacing: -.02em; text-transform: uppercase; color: var(--paper); white-space: nowrap; }
-.brand span { color: var(--lime); }
+.brand { display: inline-flex; align-items: center; gap: 10px; font: 400 20px var(--display); letter-spacing: -.02em; text-transform: uppercase; color: var(--paper); white-space: nowrap; }
+.brand__mark { width: 28px; height: 28px; flex: none; }
+.brand__name span { color: var(--lime); }
 .brand:hover { color: var(--paper); }
 .nav__links { display: flex; gap: 24px; flex-wrap: wrap; align-items: center; justify-content: flex-end; }
 .nav__links a, .menu__panel a { color: var(--muted); }
@@ -252,7 +253,10 @@ section[id] { scroll-margin-top: var(--nav-h); }
 /* ------------------------------------------------------------------ footer */
 .foot { background: var(--lime); color: var(--ink); padding: clamp(48px, 8vh, 88px) var(--gutter) 32px; display: flex; flex-direction: column; gap: 48px; }
 .foot__top { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; flex-wrap: wrap; }
-.foot__word { font: 400 clamp(56px, 10vw, 160px)/.84 var(--display); letter-spacing: -.05em; text-transform: uppercase; overflow-wrap: anywhere; }
+.foot__brand { display: flex; align-items: center; gap: clamp(12px, 2vw, 28px); min-width: 0; max-width: 100%; }
+.foot__mark { width: clamp(44px, 9vw, 128px); height: auto; flex: none; }
+/* One line at every width: the size follows the viewport instead of breaking inside the name. */
+.foot__word { font: 400 clamp(26px, 8.4vw, 150px)/.84 var(--display); letter-spacing: -.05em; text-transform: uppercase; white-space: nowrap; }
 .foot__word span { color: var(--paper); -webkit-text-stroke: 2px var(--ink); }
 .foot__meta { display: flex; flex-direction: column; gap: 10px; font: 700 13px var(--mono); letter-spacing: .08em; }
 .foot__meta strong { font-weight: 700; }
@@ -280,7 +284,7 @@ section[id] { scroll-margin-top: var(--nav-h); }
   .alert { padding: 24px; }
   .wallet { padding: 20px 22px; }
   .sweep { padding: 10px 22px; }
-  .foot__word { font-size: clamp(40px, 12.5vw, 56px); }
+  .foot__word { font-size: 8.4vw; }
 }
 
 /* ------------------------------------------------------------------ motion */
