@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <b>alphahunt.ing</b> · <a href="https://github.com/Alphahunt-ing">github.com/Alphahunt-ing</a>
+  <b>alphahunt.ing</b> · a <a href="https://factory0.ventures">Factory Zero</a> venture · <a href="https://github.com/Alphahunt-ing">github.com/Alphahunt-ing</a>
 </p>
 
 ---
@@ -140,17 +140,16 @@ by hand at `github.com/organizations/Alphahunt-ing/settings/profile`.
 
 A Cloudflare Worker with static assets, `alphahunt-website` (`wrangler.toml`),
 on the Factory0 account. It has no script: Cloudflare serves `dist/` and
-applies `_headers` and `_redirects`. It is live on
-`alphahunt-website.<subdomain>.workers.dev` (`workers_dev = true`). Commit to
-`main`, then:
+applies `_headers` and `_redirects`. It is live on `alphahunt.ing` and
+`www.alphahunt.ing` (custom domains the deploy attaches itself) and on its
+`workers.dev` address. Commit to `main`, then:
 
 ```sh
 tools/deploy.sh              # deploy main
 tools/deploy.sh --dry-run    # build it and say what would ship
 ```
 
-The script deploys **`main` and nothing else**: `origin/main` once the repo
-has a remote (it fetches first), the local `main` branch until then. It checks
+The script deploys **`origin/main` and nothing else** (it fetches first). It checks
 that commit out into a throwaway worktree, builds there, deploys that, and
 removes it; the deployment records the commit. It never reads your working
 copy or its `dist/`. More than one agent session can work in one checkout at
@@ -166,23 +165,10 @@ git worktree add ../alphahunt-website-worktrees/<name> -b <branch> main
 
 ### Custom domains
 
-> **State on 2026-10-04:** not attached. `alphahunt.ing` is registered at
-> Spaceship and its nameservers are still Spaceship's; it is not a zone on the
-> Factory0 account. The site is on workers.dev only.
-
-The routes for `alphahunt.ing` and `www.alphahunt.ing` are in `wrangler.toml`,
-commented out, because wrangler refuses a deploy whose routes name a zone the
-account cannot see. To switch them on:
-
-1. Add `alphahunt.ing` as a zone on the Factory0 Cloudflare account.
-2. At Spaceship, point the domain's nameservers at the two Cloudflare
-   nameservers the zone shows, and wait until the zone is active.
-3. Uncomment the two `[[routes]]` blocks in `wrangler.toml` and commit to
-   `main`.
-4. `tools/deploy.sh`. Cloudflare creates the DNS records and certificates for
-   the custom domains itself; do not add them by hand.
-5. Check `https://alphahunt.ing/` and `https://www.alphahunt.ing/`, then
-   update the state line above.
+`alphahunt.ing` and `www.alphahunt.ing` are routes in `wrangler.toml` with
+`custom_domain = true`, on the `alphahunt.ing` zone of the Factory0 account.
+`tools/deploy.sh` attaches them: Cloudflare creates the DNS records and the
+certificates itself, so do not add them by hand.
 
 ### Indexing
 
@@ -198,12 +184,8 @@ still be listed from links elsewhere.
 
 ## Open questions
 
-- **Domain.** `alphahunt.ing` is not on Cloudflare yet; see Custom domains.
-- **Attribution.** The design does not mention Factory Zero, so the site does
-  not say "a Factory Zero venture" and the JSON-LD has no
-  `parentOrganization`. Decide whether it should.
-- **Indexing.** Listed or unlisted; see Indexing.
-- **Legal review.** The five flagged lines in `COPY.md` need it before launch.
+- **Indexing.** Listed or unlisted; see Indexing. It is listed today.
+- **Legal review.** The flagged lines in `COPY.md` need it before launch.
 
 ## House rules for edits
 

@@ -10,16 +10,13 @@ directory = "./dist"
 not_found_handling = "404-page"
 html_handling = "auto-trailing-slash"
 
-# Custom domains: NOT attached yet. alphahunt.ing is not a zone on the Factory0
-# account (its nameservers are still Spaceship's), and wrangler refuses a deploy
-# whose routes name a zone it cannot see. Until the zone is active the site is on
-# alphahunt-website.<subdomain>.workers.dev only. To switch the domains on, follow
-# README, Deploy, "Custom domains", then uncomment these two blocks.
-#
-# [[routes]]
-# pattern = "alphahunt.ing"
-# custom_domain = true
-#
-# [[routes]]
-# pattern = "www.alphahunt.ing"
-# custom_domain = true
+# Custom domains: alphahunt.ing is a zone on the Factory0 account; the deploy
+# attaches both hostnames itself (Cloudflare makes the DNS records and certs).
+
+[[routes]]
+pattern = "alphahunt.ing"
+custom_domain = true
+
+[[routes]]
+pattern = "www.alphahunt.ing"
+custom_domain = true

@@ -9,6 +9,7 @@
 
 Site: https://alphahunt.ing/
 Organization: https://github.com/Alphahunt-ing
+Maker: Factory Zero (https://factory0.ventures)
 Contact: contact@alphahunt.ing
 Tagline: Spot it early. Act on it every day.
 Membership: members only. Invites come from members. There is no public
