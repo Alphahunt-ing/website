@@ -141,8 +141,9 @@ by hand at `github.com/organizations/Alphahunt-ing/settings/profile`.
 A Cloudflare Worker with static assets, `alphahunt-website` (`wrangler.toml`),
 on the Cloudflare account that owns alphahunt.ing. It has no script: Cloudflare serves `dist/` and
 applies `_headers` and `_redirects`. It is live on `alphahunt.ing` and
-`www.alphahunt.ing` (custom domains the deploy attaches itself) and on its
-`workers.dev` address. Commit to `main`, then:
+`www.alphahunt.ing` (custom domains the deploy attaches itself) and nowhere
+else: `workers_dev = false`, because the account's workers.dev subdomain
+belongs to another venture. Commit to `main`, then:
 
 ```sh
 tools/deploy.sh              # deploy main
