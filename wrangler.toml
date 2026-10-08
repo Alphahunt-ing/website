@@ -3,7 +3,9 @@
 # Build and deploy with tools/deploy.sh, never `wrangler deploy` from a working copy.
 name = "alphahunt-website"
 compatibility_date = "2026-09-01"
-workers_dev = true
+# Custom domains only, never the account's workers.dev subdomain (it belongs
+# to another venture).
+workers_dev = false
 
 [assets]
 directory = "./dist"

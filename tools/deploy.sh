@@ -64,6 +64,6 @@ if [ "$dry_run" = 1 ]; then
 fi
 
 # A Worker with static assets (wrangler.toml): it serves the clean checkout's
-# dist/, on workers.dev and on any custom domains listed there.
+# dist/, on the custom domains listed there (workers.dev is off).
 npx --yes wrangler@latest deploy --config "$tmp/tree/wrangler.toml" \
   --message="$ref ${sha:0:7}: $subject"
